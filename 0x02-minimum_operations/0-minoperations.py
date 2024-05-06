@@ -19,7 +19,7 @@ def minOperations(n):
         the minimum number of operations needed to result in n characters
         or 0 if n == impossible to achieve
     """
-    if type(n) != int or n <= 1:
+    if not isinstance(n, int) or n <= 1:
         return 0
     primes = [2, 3]
     summation = []
