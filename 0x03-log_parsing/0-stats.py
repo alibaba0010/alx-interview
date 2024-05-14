@@ -24,7 +24,7 @@ if __name__ == "__main__":
                 if args[-1][-1] == '\n':
                     args[-1][:-1]
                 total_size += int(args[-1])
-            except:
+            except BaseException:
                 pass
             count += 1
             if count % 10 == 0:
