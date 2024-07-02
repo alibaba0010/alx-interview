@@ -28,9 +28,9 @@ def isWinner(x, nums):
     Maria = 0
     Ben = 0
     for game in range(x):
-        print("game# ", game+1)
+        # print("game# ", game + 1)
         nums2 = list(range(1, nums[game] + 1))
-        print("nums: ", nums2)
+        # print("nums: ", nums2)
         turn = 0
         while True:
             """
